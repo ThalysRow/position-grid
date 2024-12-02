@@ -1,0 +1,14 @@
+@import './reset.css';
+@import './global.css';
+@import './header.css';
+@import './main.css';
+@import './footer.css';
+
+body {
+	background: var(--color-gray-1);
+	font-family: var(--font-family-body);
+	display: grid;
+	gap: 3.75rem;
+	justify-items: center;
+	margin-top: 3.75rem;
+}
