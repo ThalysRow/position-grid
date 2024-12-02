@@ -1,0 +1,23 @@
+header img {
+	justify-self: center;
+	margin-bottom: 3.75rem;
+}
+
+.menu {
+	display: flex;
+	gap: 1.25rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.menu a {
+	background: var(--color-white);
+	padding: 0.9375rem 1.875rem;
+	border-radius: 0.25rem;
+	color: var(--color-back);
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+}
