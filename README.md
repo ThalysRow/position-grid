@@ -4,6 +4,6 @@ Projeto online: [Link](https://position-grid-pi8tby00r-thalysrows-projects.verce
 
 ### Tecnologias utilizadas:
 
-- HTML <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" alt="HTML" width="16" height="16" />
+- HTML <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" alt="HTML" width="24" height="24" />
 
-- CSS <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS" width="16" height="16" />
+- CSS <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS" width="24" height="24" />
