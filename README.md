@@ -1,6 +1,6 @@
 # Exercício de posicionamento utilizando Grid Layout.
 
-Projeto online: [Link](https://position-grid-pi8tby00r-thalysrows-projects.vercel.app).
+Projeto online: <a href="https://position-grid-pi8tby00r-thalysrows-projects.vercel.app" target="_blank">Link</a>.
 
 ### Tecnologias utilizadas:
 
