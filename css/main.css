@@ -30,7 +30,8 @@ p {
 	font-size: var(--font-h1);
 }
 
-.detail {
+.introduction::before {
+	content: '';
 	width: 3.75rem;
 	height: 0.25rem;
 	background: var(--color-red);
@@ -38,6 +39,7 @@ p {
 	top: 1.875rem;
 	right: -1.875rem;
 }
+
 button {
 	background: var(--color-red);
 	border: none;
@@ -46,6 +48,10 @@ button {
 	padding: 0.9375rem 1.875rem;
 	border-radius: 0.25rem;
 	text-transform: uppercase;
+}
+
+button:hover {
+	background-color: var(--color-red-2);
 }
 
 .caption {
@@ -68,6 +74,15 @@ button {
 	grid-template-columns: auto 1fr;
 	gap: 0.625rem 1.25rem;
 	padding: 1.25rem;
+	border-left: 0.25rem solid transparent;
+}
+
+.advantages-item:hover {
+	border-left-color: var(--color-red);
+}
+
+.advantages-item:nth-child(odd) {
+	background: #f7f7f7;
 }
 
 .advantages-item h3 {

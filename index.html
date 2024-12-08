@@ -9,52 +9,59 @@
 	<body>
 		<header>
 			<img src="./images/bikcraft.svg" alt="Logo Bikcraft" />
-			<nav>
-				<div class="menu">
-					<a href="#">Sobre</a>
-					<a href="#">Produtos</a>
-					<a href="#">Lojas</a>
-					<a href="#">Contato</a>
-				</div>
+			<nav aria-label="primary">
+				<ul class="menu">
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Produtos</a></li>
+					<li><a href="#">Lojas</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
 			</nav>
 		</header>
 
 		<main>
-			<div class="content">
-				<div class="introduction">
-					<span class="detail"></span>
-					<h1>Bicicletas Feitas a Mão</h1>
+			<section class="content">
+				<article class="introduction" aria-labelledby="main-title">
+					<h1 id="main-title">Bicicletas Feitas a Mão</h1>
 					<p>
 						A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela
 						vem equipada com os melhores acessórios da marca.
 					</p>
 					<button>Ver Mais</button>
-				</div>
+				</article>
 
 				<img src="./images/bicicleta.jpg" alt="Foto bicicleta" />
 
 				<h2 class="caption">Vantagens Bikcraft</h2>
 
-				<div class="advantages">
-					<div class="advantages-item">
-						<img src="./images/eletrica.svg" alt="ícone eletrica" />
-						<h3>Motor Elétrico</h3>
-						<p>Permite você viajar distâncias inimaginaveis com a sua bike.</p>
-					</div>
+				<section class="advantages">
+					<ul>
+						<li class="advantages-item">
+							<img src="./images/eletrica.svg" alt="ícone eletrica" />
+							<h3>Motor Elétrico</h3>
+							<p>
+								Permite você viajar distâncias inimaginaveis com a sua bike.
+							</p>
+						</li>
 
-					<div class="advantages-item">
-						<img src="./images/velocidade.svg" alt="ícone velocidade" />
-						<h3>40 km/h</h3>
-						<p>A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
-					</div>
+						<li class="advantages-item">
+							<img src="./images/velocidade.svg" alt="ícone velocidade" />
+							<h3>40 km/h</h3>
+							<p>
+								A mais rápida bicicleta elétrica disponível hoje no mercado.
+							</p>
+						</li>
 
-					<div class="advantages-item">
-						<img src="./images/rastreador.svg" alt="ícone rastreador" />
-						<h3>Rastreador</h3>
-						<p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
-					</div>
-				</div>
-			</div>
+						<li class="advantages-item">
+							<img src="./images/rastreador.svg" alt="ícone rastreador" />
+							<h3>Rastreador</h3>
+							<p>
+								Rastreador e sistema anti-furto para garantir o seu sossego.
+							</p>
+						</li>
+					</ul>
+				</section>
+			</section>
 		</main>
 
 		<footer>

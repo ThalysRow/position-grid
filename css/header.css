@@ -13,9 +13,14 @@ header img {
 .menu a {
 	background: var(--color-white);
 	padding: 0.9375rem 1.875rem;
-	border-radius: 0.25rem;
 	color: var(--color-back);
 	text-transform: uppercase;
+	border: 0.125rem solid var(--color-white);
+	border-radius: 0.25rem;
+}
+
+.menu a:hover {
+	border-color: var(--color-red);
 }
 
 a {
