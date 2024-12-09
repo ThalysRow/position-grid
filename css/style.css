@@ -12,3 +12,7 @@ body {
 	justify-items: center;
 	margin-top: 3.75rem;
 }
+
+* {
+	box-sizing: border-box;
+}
